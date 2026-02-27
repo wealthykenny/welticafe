@@ -1,0 +1,90 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Luxe Coffee Palette - Figma Professional Inspired */
+  --espresso: #1a0e0a;
+  --dark-roast: #2d1810;
+  --mocha: #3d2317;
+  --caramel: #c8956c;
+  --gold: #d4a056;
+  --cream: #f5e6d3;
+  --latte: #faf3eb;
+  --white: #fffcf9;
+  --accent-coral: #e8735a;
+  --accent-plum: #6b3a5d;
+  --figma-purple: #a259ff;
+  --figma-pink: #ff7262;
+  --figma-green: #0acf83;
+  --figma-blue: #1abcfe;
+  --text-primary: #1a0e0a;
+  --text-secondary: #6b5b50;
+  --text-light: #9a8b80;
+  --glass-bg: rgba(255, 252, 249, 0.72);
+  --glass-border: rgba(200, 149, 108, 0.2);
+  --shadow-sm: 0 2px 8px rgba(26, 14, 10, 0.06);
+  --shadow-md: 0 8px 30px rgba(26, 14, 10, 0.1);
+  --shadow-lg: 0 20px 60px rgba(26, 14, 10, 0.15);
+  --shadow-glow: 0 0 40px rgba(212, 160, 86, 0.15);
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: var(--white);
+  color: var(--text-primary);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--latte);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--caramel);
+  border-radius: 10px;
+}
+
+::selection {
+  background: var(--caramel);
+  color: var(--white);
+}
